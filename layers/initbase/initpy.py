@@ -1,0 +1,9 @@
+import subprocess
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/avutility/avinit.sh"])
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/bvutility/bvinit.sh"])
+#subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek-Security/Security_Layers\\fmutility\"])
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/fwutility/ufwinit.sh"])
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/portsecurity/portinit.sh"])
+#subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek-Security/Security_Layers\\prerequesteries\"])
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/rkutility/rkinit.sh"])
+subprocess.Popen(["bash", "/home/fsociety/Desktop/Sleek/layers/securityutility/ssminit.sh"])
