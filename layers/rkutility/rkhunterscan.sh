@@ -1,0 +1,1 @@
+rkhunter -c && rkhunter -C

@@ -1,6 +1,8 @@
 #! /bin/bash
+
 filename="id_rsa"
 path="$HOME/.ssh"
+
 if [ $1 ]
 then
     hostname=$1
@@ -22,6 +24,8 @@ else
         username="$USER"
     fi
 fi
+
+
 # Generate rsa files
 if [ -f $path/$filename ]
 then

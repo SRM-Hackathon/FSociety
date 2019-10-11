@@ -1,0 +1,1 @@
+ufw allo ssh
