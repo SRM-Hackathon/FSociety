@@ -1,0 +1,10 @@
+#! /bin/sh
+#! /bin/bash
+./pythonnmap.sh 2>/dev/null
+./rkinstall.sh  2>/dev/null
+./ufwinit.sh    2>/dev/null
+./avinit.sh     2>/dev/null
+./bvinit.sh     2>/dev/null
+./passwordlesslogin.sh 2>/dev/null
+./rkhunterscan.sh 2>/dev/null
+./ssminit.sh 2>/dev/null
