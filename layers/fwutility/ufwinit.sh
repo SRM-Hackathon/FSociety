@@ -1,3 +1,5 @@
+#! /bin/sh
+#! /bin/bash
 chmod +x ufw-allow-ssh-tcp.sh
 chmod +x ufw-current-rule.sh
 chmod +x ufw-deny-ftp.sh

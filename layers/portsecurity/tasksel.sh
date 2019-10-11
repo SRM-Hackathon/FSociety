@@ -1,3 +1,5 @@
+#! /bin/sh
+#! /bin/bash
 sudo apt-get install tasksel
 tasksel install openssh-server
 systemtcl enable ssh
