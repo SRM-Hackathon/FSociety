@@ -14,5 +14,3 @@ read -p "Enter The Site :" sitename
 ./analyze_hosts.sh -s $sitename
 ./ssminit.sh 2>/dev/null
 python wascan.py --url $sitename --scan [1,4]
-
-

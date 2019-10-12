@@ -15,7 +15,7 @@ lab.pack()
 sub = Toplevel(root)
 sub.title("UFW Status")
 sub.geometry("600x300")
-bot = Button(sub , text = "Show Status" , command = "/home/fsociety/Desktop/Sleek/level0/ufwstatus.sh")
+bot = Button(sub , text = "Show Status" , command = subprocess.call(["/home/fsociety/Desktop/Sleek/level0/ufwstatus.sh"]))
 bot.pack(side = LEFT , pady = 10 )
 def open_file(): 
     file = askopenfile(mode ='r', filetypes =[('Shell Files', '*.sh')]) 
